@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21440" started-at="2019-03-31T11:40:21Z" finished-at="2019-03-31T11:40:42Z">
+  <suite name="Default suite" duration-ms="12001" started-at="2019-03-31T13:14:56Z" finished-at="2019-03-31T13:15:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21440" started-at="2019-03-31T11:40:21Z" finished-at="2019-03-31T11:40:42Z">
+    <test name="Default test" duration-ms="12001" started-at="2019-03-31T13:14:56Z" finished-at="2019-03-31T13:15:08Z">
       <class name="muttu11.Test1">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:muttu11.Test1@2b98378d]" name="openBrowser" is-config="true" duration-ms="19105" started-at="2019-03-31T11:40:21Z" finished-at="2019-03-31T11:40:40Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:muttu11.Test1@8bd1b6a]" name="openBrowser" is-config="true" duration-ms="9068" started-at="2019-03-31T13:14:56Z" finished-at="2019-03-31T13:15:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:muttu11.Test1@2b98378d]" name="test1" duration-ms="17" started-at="2019-03-31T11:40:40Z" finished-at="2019-03-31T11:40:40Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:muttu11.Test1@8bd1b6a]" name="test1" duration-ms="557" started-at="2019-03-31T13:15:05Z" finished-at="2019-03-31T13:15:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:muttu11.Test1@2b98378d]" name="tearDown" is-config="true" duration-ms="2277" started-at="2019-03-31T11:40:40Z" finished-at="2019-03-31T11:40:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:muttu11.Test1@8bd1b6a]" name="tearDown" is-config="true" duration-ms="2347" started-at="2019-03-31T13:15:05Z" finished-at="2019-03-31T13:15:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

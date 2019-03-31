@@ -5,9 +5,9 @@
     <classes>
       <class name="muttu11.Test1">
         <methods>
-          <include name="getBrowser"/>
+          <include name="test1"/>
           <include name="tearDown"/>
-          <include name="check"/>
+          <include name="openBrowser"/>
         </methods>
       </class> <!-- muttu11.Test1 -->
     </classes>
