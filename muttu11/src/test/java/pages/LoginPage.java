@@ -34,7 +34,9 @@ public class LoginPage {
 		
 		accountSettings.click();
 		logout.click();
+		
 
 	}
+	
 
 }

@@ -2,6 +2,8 @@ package helpers;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -12,7 +14,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
-
 
 public class BrowserFactory {
 
@@ -44,7 +45,7 @@ public class BrowserFactory {
 					"C:\\Users\\Mutturaj\\muttu11\\muttu11\\Drivers\\chromedriver.exe");
 
 			driver = new ChromeDriver(chromeOptions);
-		} else if(browserName.equalsIgnoreCase("firefox")) {
+		} else if (browserName.equalsIgnoreCase("firefox")) {
 
 			FirefoxOptions options = new FirefoxOptions();
 			options.setProfile(new FirefoxProfile());
@@ -54,10 +55,10 @@ public class BrowserFactory {
 
 			driver = new FirefoxDriver(options);
 
-		}else{
-			
+		} else {
+
 			driver = new HtmlUnitDriver();
-			
+
 		}
 
 		driver.manage().deleteAllCookies();
@@ -75,5 +76,13 @@ public class BrowserFactory {
 		return properties.getProperty("browser");
 
 	}
+	
+	public static String dateStamp(){
+		
+		SimpleDateFormat dateFormat=new SimpleDateFormat("MM_dd_yyy_hh_mm_ss");
+		return dateFormat.format(new Date());
+	}
+
+	
 
 }

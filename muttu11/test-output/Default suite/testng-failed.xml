@@ -6,6 +6,7 @@
       <class name="muttu11.LoginTest">
         <methods>
           <include name="test1"/>
+          <include name="takeScreeshot"/>
           <include name="tearDown"/>
           <include name="openBrowser"/>
         </methods>
