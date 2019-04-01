@@ -19,7 +19,7 @@ public class GetData {
 
 		XSSFWorkbook book = null;
 		try {
-			book = new XSSFWorkbook(new File("C:\\Users\\Mutturaj\\Desktop\\data.xlsx"));
+			book = new XSSFWorkbook(new File("C:\\Users\\Mutturaj\\muttu11\\muttu11\\XLS files\\data.xlsx"));
 		} catch (InvalidFormatException e) {
 			
 			e.printStackTrace();
