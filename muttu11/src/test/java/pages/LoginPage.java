@@ -23,9 +23,9 @@ public class LoginPage {
 	@FindBy(how = How.LINK_TEXT, using = "Log Out")
 	WebElement logout;
 
-	public void login() {
-		email.sendKeys("hulagabal@gmail.com");
-		password.sendKeys("8970711727");
+	public void login(String name, String pass) {
+		email.sendKeys(name);
+		password.sendKeys(pass);
 		login.click();
 
 	}

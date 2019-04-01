@@ -5,19 +5,20 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.Test;
 
+import dataDriver.GetData;
 import pages.LoginPage;
 
 public class LoginTest extends BaseClass {
 	ITestResult result;
 
-	@Test
-	public void test1() {
+	@Test(dataProvider="data", dataProviderClass=GetData.class)
+	public void test1(String name, String pass) {
 
 		System.out.println(driver.getTitle());
 
 		LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
 
-		loginPage.login();
+		loginPage.login(name, pass);
 
 		Assert.assertEquals(driver.getTitle(), "Facebook");
 

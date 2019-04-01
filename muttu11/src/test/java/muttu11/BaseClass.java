@@ -11,6 +11,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 import helpers.BrowserFactory;
 
@@ -18,7 +19,7 @@ public class BaseClass {
 
 	WebDriver driver;
 
-	@BeforeClass
+	@BeforeMethod
 	public void openBrowser() {
 		
 		BrowserFactory browserFactory=new BrowserFactory();
@@ -28,7 +29,7 @@ public class BaseClass {
 
 	}
 
-	@AfterClass
+	@AfterMethod
 	public void tearDown() {
 		driver.close();
 	}
