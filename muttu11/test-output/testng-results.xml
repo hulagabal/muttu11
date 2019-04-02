@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25419" started-at="2019-04-02T08:23:55Z" finished-at="2019-04-02T08:24:21Z">
+  <suite name="Suite" duration-ms="31589" started-at="2019-04-02T17:20:54Z" finished-at="2019-04-02T17:21:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25419" started-at="2019-04-02T08:23:55Z" finished-at="2019-04-02T08:24:21Z">
+    <test name="Test" duration-ms="31589" started-at="2019-04-02T17:20:54Z" finished-at="2019-04-02T17:21:25Z">
       <class name="muttu11.LoginTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:muttu11.LoginTest@60015ef5]" name="openBrowser" is-config="true" duration-ms="6754" started-at="2019-04-02T08:23:56Z" finished-at="2019-04-02T08:24:03Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:muttu11.LoginTest@60015ef5]" name="openBrowser" is-config="true" duration-ms="7886" started-at="2019-04-02T17:20:54Z" finished-at="2019-04-02T17:21:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:muttu11.LoginTest@60015ef5]" name="test1" duration-ms="15979" started-at="2019-04-02T08:24:03Z" data-provider="data" finished-at="2019-04-02T08:24:19Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:muttu11.LoginTest@60015ef5]" name="test1" duration-ms="21041" started-at="2019-04-02T17:21:02Z" data-provider="data" finished-at="2019-04-02T17:21:23Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="takeScreeshot(org.testng.ITestResult)[pri:0, instance:muttu11.LoginTest@60015ef5]" name="takeScreeshot" is-config="true" duration-ms="1" started-at="2019-04-02T08:24:19Z" finished-at="2019-04-02T08:24:19Z">
+        <test-method status="PASS" signature="takeScreeshot(org.testng.ITestResult)[pri:0, instance:muttu11.LoginTest@60015ef5]" name="takeScreeshot" is-config="true" duration-ms="1" started-at="2019-04-02T17:21:23Z" finished-at="2019-04-02T17:21:23Z">
           <params>
             <param index="0">
               <value>
@@ -38,11 +38,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreeshot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:muttu11.LoginTest@60015ef5]" name="tearDown" is-config="true" duration-ms="2108" started-at="2019-04-02T08:24:19Z" finished-at="2019-04-02T08:24:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:muttu11.LoginTest@60015ef5]" name="tearDown" is-config="true" duration-ms="2147" started-at="2019-04-02T17:21:23Z" finished-at="2019-04-02T17:21:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- muttu11.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

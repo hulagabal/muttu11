@@ -5,7 +5,7 @@
     <classes>
       <class name="muttu11.LoginTest">
         <methods>
-          <include name="test1" invocation-numbers="1 2 3 4 5 6 7 8 9 10 11"/>
+          <include name="test1" invocation-numbers="0"/>
           <include name="takeScreeshot"/>
           <include name="tearDown"/>
           <include name="openBrowser"/>
