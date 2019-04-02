@@ -11,11 +11,12 @@ import dataDriver.GetData;
 import pages.LoginPage;
 
 public class LoginTest extends BaseClass {
-	
-	private Logger logger=LogManager.getLogger(LoginTest.class);
+
+	private Logger logger = LogManager.getLogger(LoginTest.class);
+
 	ITestResult result;
 
-	@Test(dataProvider="data", dataProviderClass=GetData.class)
+	@Test(dataProvider = "data", dataProviderClass = GetData.class)
 	public void test1(String name, String pass) {
 
 		logger.info(driver.getTitle());
@@ -27,7 +28,6 @@ public class LoginTest extends BaseClass {
 		Assert.assertEquals(driver.getTitle(), "Facebook");
 
 		loginPage.logout(driver);
-		
 
 	}
 
